@@ -14,3 +14,5 @@ setuptools~=57.0.0
 nltk==3.2.5
 uvicorn[standard]
 fastapi
+streamlit
+watchdog

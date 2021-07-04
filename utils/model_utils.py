@@ -49,6 +49,7 @@ def get_text_sentiment(text):
     bow = load_bow(config["paths"]["matrix"])
     trasnformed_text = bow.transform([text])
     proba = model.predict_proba(trasnformed_text)
+    print(proba)
     idx = proba.argmax()
     sentiment = ''
     if(idx == 0):

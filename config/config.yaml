@@ -1,3 +1,5 @@
 paths:
   model: ./models/logistic_regression.pkl
   matrix: ./models/BOW_MATRIX.pkl
+api:
+  url: http://localhost:8000/predict/
